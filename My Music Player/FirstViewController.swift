@@ -13,6 +13,8 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //call function
+        GetSongName()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -33,7 +35,12 @@ class FirstViewController: UIViewController {
             
             for song in songPath
             {
-                var mySong = song .absoluteString
+                var mySong = song .absoluteString   // loops through a song 
+                if mySong.contains(".m4a")
+                {
+                print (mySong)
+                
+                }
             }
         }
         
