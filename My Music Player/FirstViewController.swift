@@ -11,8 +11,9 @@ import UIKit
 // global array to save songs 
 
 var songs:[String] = []
-
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var myTableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
@@ -27,13 +28,12 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return cell
     }
     
-   
-    
-    
-    
-    
-    
-    
+   //need to recognize when the user taps on a certain cell 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        //
+    }
+ 
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,7 +73,9 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
                    // print (mySong)
                     songs.append(mySong)
                 }
-            }
+           }
+            
+            myTableView.reloadData()
         }
         
         catch
