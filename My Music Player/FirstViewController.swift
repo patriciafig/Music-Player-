@@ -7,10 +7,15 @@
 //
 
 import UIKit
+import AVFoundation    // TO WORK WITH AUDIO
 
 // global array to save songs 
 
 var songs:[String] = []
+var audioPlayer = AVAudioPlayer()  // to access audio
+
+
+
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var myTableView: UITableView!
@@ -31,7 +36,19 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
    //need to recognize when the user taps on a certain cell 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        //
+        do
+        {
+        // find path to song by using the song name 
+            let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".m4a")
+            // want the name that the user taps on to display on the cells
+            // access it by checking against the array
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)   // want the content of the audio path to take the content and put it in the audio player
+            audioPlayer.play()
+        }
+        catch
+        {
+            print("ERROR!")
+        }
     }
  
 
