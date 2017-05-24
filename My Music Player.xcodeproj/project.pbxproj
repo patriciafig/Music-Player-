@@ -15,6 +15,12 @@
 		4D9A54FF1ECF8AA500090665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A54FD1ECF8AA500090665 /* LaunchScreen.storyboard */; };
 		4D9A550A1ECF8AA500090665 /* My_Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A55091ECF8AA500090665 /* My_Music_PlayerTests.swift */; };
 		4D9A55151ECF8AA500090665 /* My_Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A55141ECF8AA500090665 /* My_Music_PlayerUITests.swift */; };
+		4D9A552B1ED5E84900090665 /* 01 Gemini (feat. George Maple).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55251ED5E84900090665 /* 01 Gemini (feat. George Maple).m4a */; };
+		4D9A552C1ED5E84900090665 /* 01 Scared to Be Lonely.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55261ED5E84900090665 /* 01 Scared to Be Lonely.m4a */; };
+		4D9A552D1ED5E84900090665 /* 03 Heater.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55271ED5E84900090665 /* 03 Heater.m4a */; };
+		4D9A552E1ED5E84900090665 /* 08 On Hold.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55281ED5E84900090665 /* 08 On Hold.m4a */; };
+		4D9A552F1ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55291ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */; };
+		4D9A55301ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A552A1ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		4D9A55101ECF8AA500090665 /* My Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9A55141ECF8AA500090665 /* My_Music_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Music_PlayerUITests.swift; sourceTree = "<group>"; };
 		4D9A55161ECF8AA500090665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9A55251ED5E84900090665 /* 01 Gemini (feat. George Maple).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Gemini (feat. George Maple).m4a"; sourceTree = "<group>"; };
+		4D9A55261ED5E84900090665 /* 01 Scared to Be Lonely.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Scared to Be Lonely.m4a"; sourceTree = "<group>"; };
+		4D9A55271ED5E84900090665 /* 03 Heater.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "03 Heater.m4a"; sourceTree = "<group>"; };
+		4D9A55281ED5E84900090665 /* 08 On Hold.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 On Hold.m4a"; sourceTree = "<group>"; };
+		4D9A55291ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a"; sourceTree = "<group>"; };
+		4D9A552A1ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1-04 All We Need (feat. Shy Girls).m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 				4D9A54FB1ECF8AA500090665 /* Assets.xcassets */,
 				4D9A54FD1ECF8AA500090665 /* LaunchScreen.storyboard */,
 				4D9A55001ECF8AA500090665 /* Info.plist */,
+				4D9A55241ED5E84900090665 /* songs */,
 			);
 			path = "My Music Player";
 			sourceTree = "<group>";
@@ -126,6 +139,19 @@
 				4D9A55161ECF8AA500090665 /* Info.plist */,
 			);
 			path = "My Music PlayerUITests";
+			sourceTree = "<group>";
+		};
+		4D9A55241ED5E84900090665 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				4D9A55251ED5E84900090665 /* 01 Gemini (feat. George Maple).m4a */,
+				4D9A55261ED5E84900090665 /* 01 Scared to Be Lonely.m4a */,
+				4D9A55271ED5E84900090665 /* 03 Heater.m4a */,
+				4D9A55281ED5E84900090665 /* 08 On Hold.m4a */,
+				4D9A55291ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */,
+				4D9A552A1ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */,
+			);
+			path = songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9A552E1ED5E84900090665 /* 08 On Hold.m4a in Resources */,
 				4D9A54FF1ECF8AA500090665 /* LaunchScreen.storyboard in Resources */,
+				4D9A552D1ED5E84900090665 /* 03 Heater.m4a in Resources */,
 				4D9A54FC1ECF8AA500090665 /* Assets.xcassets in Resources */,
+				4D9A552C1ED5E84900090665 /* 01 Scared to Be Lonely.m4a in Resources */,
 				4D9A54FA1ECF8AA500090665 /* Main.storyboard in Resources */,
+				4D9A552F1ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a in Resources */,
+				4D9A55301ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a in Resources */,
+				4D9A552B1ED5E84900090665 /* 01 Gemini (feat. George Maple).m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +550,7 @@
 				4D9A551B1ECF8AA500090665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D9A551C1ECF8AA500090665 /* Build configuration list for PBXNativeTarget "My Music PlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +559,7 @@
 				4D9A551E1ECF8AA500090665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D9A551F1ECF8AA500090665 /* Build configuration list for PBXNativeTarget "My Music PlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +568,7 @@
 				4D9A55211ECF8AA500090665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
