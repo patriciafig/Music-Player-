@@ -8,7 +8,32 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+// global array to save songs 
+
+var songs:[String] = []
+
+class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return songs.count
+    }                                                       //creating cells
+   
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = UITableViewCell (style: .default, reuseIdentifier: "cell")   // identifier name in main storyboard 
+        cell.textLabel?.text = songs [indexPath.row]
+        
+        return cell
+    }
+    
+   
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +41,10 @@ class FirstViewController: UIViewController {
         //call function
         GetSongName()
     }
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+        // load song names in a table view 
+    
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -38,8 +66,12 @@ class FirstViewController: UIViewController {
                 var mySong = song .absoluteString   // loops through a song 
                 if mySong.contains(".m4a")
                 {
-                print (mySong)
-                
+                    let findString = mySong.components(separatedBy: "/")   // get array filled with "/" to get location of the songs
+                    mySong = findString[findString.count-1]
+                    mySong = mySong.replacingOccurrences(of: "%20", with: " ")
+                    mySong = mySong.replacingOccurrences(of: ".m4a", with: "")
+                   // print (mySong)
+                    songs.append(mySong)
                 }
             }
         }
