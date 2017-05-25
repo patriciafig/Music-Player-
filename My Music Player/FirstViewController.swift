@@ -36,7 +36,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
    //need to recognize when the user taps on a certain cell 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        do
+        do 
         {
         // find path to song by using the song name 
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".m4a")
