@@ -19,7 +19,6 @@
 		4D9A552C1ED5E84900090665 /* 01 Scared to Be Lonely.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55261ED5E84900090665 /* 01 Scared to Be Lonely.m4a */; };
 		4D9A552D1ED5E84900090665 /* 03 Heater.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55271ED5E84900090665 /* 03 Heater.m4a */; };
 		4D9A552E1ED5E84900090665 /* 08 On Hold.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55281ED5E84900090665 /* 08 On Hold.m4a */; };
-		4D9A552F1ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55291ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */; };
 		4D9A55301ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A552A1ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,6 @@
 		4D9A55261ED5E84900090665 /* 01 Scared to Be Lonely.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Scared to Be Lonely.m4a"; sourceTree = "<group>"; };
 		4D9A55271ED5E84900090665 /* 03 Heater.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "03 Heater.m4a"; sourceTree = "<group>"; };
 		4D9A55281ED5E84900090665 /* 08 On Hold.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 On Hold.m4a"; sourceTree = "<group>"; };
-		4D9A55291ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a"; sourceTree = "<group>"; };
 		4D9A552A1ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1-04 All We Need (feat. Shy Girls).m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,7 +146,6 @@
 				4D9A55261ED5E84900090665 /* 01 Scared to Be Lonely.m4a */,
 				4D9A55271ED5E84900090665 /* 03 Heater.m4a */,
 				4D9A55281ED5E84900090665 /* 08 On Hold.m4a */,
-				4D9A55291ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */,
 				4D9A552A1ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */,
 			);
 			path = songs;
@@ -270,7 +267,6 @@
 				4D9A54FC1ECF8AA500090665 /* Assets.xcassets in Resources */,
 				4D9A552C1ED5E84900090665 /* 01 Scared to Be Lonely.m4a in Resources */,
 				4D9A54FA1ECF8AA500090665 /* Main.storyboard in Resources */,
-				4D9A552F1ED5E84900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a in Resources */,
 				4D9A55301ED5E84900090665 /* 1-04 All We Need (feat. Shy Girls).m4a in Resources */,
 				4D9A552B1ED5E84900090665 /* 01 Gemini (feat. George Maple).m4a in Resources */,
 			);

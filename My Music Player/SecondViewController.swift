@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class SecondViewController: UIViewController {
     
@@ -34,12 +35,32 @@ class SecondViewController: UIViewController {
     }
     @IBAction func next(_ sender: Any)   // next button
     {
+        PlayThis(thisOne: songs[SongPlaying+1])
     }
     
     @IBAction func slider(_ sender: UISlider)   // slider to adjust the volume 
     {
         
         audioPlayer.volume = sender.value 
+    }
+    
+    func PlayThis (thisOne:String)
+    {
+        do
+        {
+            // find path to song by using the song name
+            let audioPath = Bundle.main.path(forResource: thisOne, ofType: ".m4a")
+            // want the name that the user taps on to display on the cells
+            // access it by checking against the array
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)   // want the content of the audio path to take the content and put it in the audio player
+            audioPlayer.play()
+            
+        }
+        catch
+        {
+            print("ERROR!")
+        }
+    
     }
     
     override func viewDidLoad() {

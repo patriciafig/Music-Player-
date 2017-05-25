@@ -13,7 +13,7 @@ import AVFoundation    // TO WORK WITH AUDIO
 
 var songs:[String] = []
 var audioPlayer = AVAudioPlayer()  // to access audio
-
+var SongPlaying = 0
 
 
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -44,6 +44,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
             // access it by checking against the array
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)   // want the content of the audio path to take the content and put it in the audio player
             audioPlayer.play()
+            SongPlaying = indexPath.row    // keeps track of the song that is playing, necessary for PREV button
         }
         catch
         {
