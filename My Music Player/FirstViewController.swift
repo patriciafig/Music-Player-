@@ -55,7 +55,8 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //call function
+        
+        //call function to get the song name 
         GetSongName()
     }
     override func didReceiveMemoryWarning()
