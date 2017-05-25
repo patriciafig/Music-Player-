@@ -29,7 +29,7 @@ class SecondViewController: UIViewController {
         }
     }
     
-    @IBAction func prev(_ sender: Any)     // prev button
+    @IBAction func prev(_ sender: Any)     // prev button, need to know what song is playing from the array 
     {
     }
     @IBAction func next(_ sender: Any)   // next button
@@ -38,6 +38,8 @@ class SecondViewController: UIViewController {
     
     @IBAction func slider(_ sender: UISlider)   // slider to adjust the volume 
     {
+        
+        audioPlayer.volume = sender.value 
     }
     
     override func viewDidLoad() {
