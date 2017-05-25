@@ -19,7 +19,6 @@
 		4D9A553A1ED751B900090665 /* 01 Scared to Be Lonely.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55331ED751B900090665 /* 01 Scared to Be Lonely.m4a */; };
 		4D9A553B1ED751B900090665 /* 03 Heater.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55341ED751B900090665 /* 03 Heater.m4a */; };
 		4D9A553C1ED751B900090665 /* 08 On Hold.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55351ED751B900090665 /* 08 On Hold.m4a */; };
-		4D9A553D1ED751B900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55361ED751B900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */; };
 		4D9A553E1ED751B900090665 /* 08 Trust Nobody (feat. Selena Gomez & Tory Lanez).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55371ED751B900090665 /* 08 Trust Nobody (feat. Selena Gomez & Tory Lanez).m4a */; };
 		4D9A553F1ED751B900090665 /* 1-04 All We Need (feat. Shy Girls).m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4D9A55381ED751B900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */; };
 /* End PBXBuildFile section */
@@ -60,7 +59,6 @@
 		4D9A55331ED751B900090665 /* 01 Scared to Be Lonely.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Scared to Be Lonely.m4a"; sourceTree = "<group>"; };
 		4D9A55341ED751B900090665 /* 03 Heater.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "03 Heater.m4a"; sourceTree = "<group>"; };
 		4D9A55351ED751B900090665 /* 08 On Hold.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 On Hold.m4a"; sourceTree = "<group>"; };
-		4D9A55361ED751B900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a"; sourceTree = "<group>"; };
 		4D9A55371ED751B900090665 /* 08 Trust Nobody (feat. Selena Gomez & Tory Lanez).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08 Trust Nobody (feat. Selena Gomez & Tory Lanez).m4a"; sourceTree = "<group>"; };
 		4D9A55381ED751B900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1-04 All We Need (feat. Shy Girls).m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,7 +148,6 @@
 				4D9A55331ED751B900090665 /* 01 Scared to Be Lonely.m4a */,
 				4D9A55341ED751B900090665 /* 03 Heater.m4a */,
 				4D9A55351ED751B900090665 /* 08 On Hold.m4a */,
-				4D9A55361ED751B900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a */,
 				4D9A55371ED751B900090665 /* 08 Trust Nobody (feat. Selena Gomez & Tory Lanez).m4a */,
 				4D9A55381ED751B900090665 /* 1-04 All We Need (feat. Shy Girls).m4a */,
 			);
@@ -275,7 +272,6 @@
 				4D9A553A1ED751B900090665 /* 01 Scared to Be Lonely.m4a in Resources */,
 				4D9A553E1ED751B900090665 /* 08 Trust Nobody (feat. Selena Gomez & Tory Lanez).m4a in Resources */,
 				4D9A54FA1ECF8AA500090665 /* Main.storyboard in Resources */,
-				4D9A553D1ED751B900090665 /* 08 Smoke & Retribution (feat. Vince Staples & Kučka).m4a in Resources */,
 				4D9A55391ED751B900090665 /* 01 Gemini (feat. George Maple).m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

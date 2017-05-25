@@ -32,18 +32,28 @@ class SecondViewController: UIViewController {
     
     @IBAction func prev(_ sender: Any)     // prev button, need to know what song is playing from the array 
     {
+        if SongPlaying == 1
+        {
+          PlayThis(thisOne: songs[SongPlaying-1])
+        }
+        else
+        {
+         // nothing
+        }
     }
+    
     @IBAction func next(_ sender: Any)   // next button
     {
-        if SongPlaying < songs.count
+        if SongPlaying < songs.count-1
         {
             PlayThis(thisOne: songs[SongPlaying+1])
         }
         else
         {
-        
+         //nothing
         }
-   //     PlayThis(thisOne: songs[SongPlaying+1])    if last song must comtinue
+        
+   // PlayThis(thisOne: songs[SongPlaying+1])    if last song must continue
     }
     
     @IBAction func slider(_ sender: UISlider)   // slider to adjust the volume 
