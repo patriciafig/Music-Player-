@@ -35,7 +35,15 @@ class SecondViewController: UIViewController {
     }
     @IBAction func next(_ sender: Any)   // next button
     {
-        PlayThis(thisOne: songs[SongPlaying+1])
+        if SongPlaying < songs.count
+        {
+            PlayThis(thisOne: songs[SongPlaying+1])
+        }
+        else
+        {
+        
+        }
+   //     PlayThis(thisOne: songs[SongPlaying+1])    if last song must comtinue
     }
     
     @IBAction func slider(_ sender: UISlider)   // slider to adjust the volume 
@@ -53,6 +61,7 @@ class SecondViewController: UIViewController {
             // want the name that the user taps on to display on the cells
             // access it by checking against the array
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)   // want the content of the audio path to take the content and put it in the audio player
+            SongPlaying += 1
             audioPlayer.play()
             
         }
